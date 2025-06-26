@@ -14,7 +14,7 @@ export default function Footer() {
             photos into professional application photos. Perfect for LinkedIn,
             resumes, and all other professional needs.
           </p>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-md transition">
+          <button className="bg-blue-500 hover:bg-orange-600 text-white px-6 py-2 rounded-md transition">
             Start now →
           </button>
         </div>

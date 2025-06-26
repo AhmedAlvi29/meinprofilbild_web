@@ -93,7 +93,7 @@ export default function SuccessStories() {
         ))}
       </div>
 
-      <button className="mt-4 bg-blue-500 text-white font-semibold px-6 py-2 rounded shadow hover:bg-orange-600">
+      <button className="mt-4 bg-blue-500 text-white font-semibold px-6 py-2 rounded shadow hover:bg-blue-600">
         See more examples
       </button>
     </div>

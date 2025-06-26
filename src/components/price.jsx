@@ -9,7 +9,7 @@ const plans = [
       "2 different backgrounds + styles",
       "Ready in 90 minutes",
     ],
-    buttonStyle: "border border-black text-black",
+    buttonStyle: "bg-blue-700 text-white",
     popular: false,
   },
   {
@@ -20,7 +20,7 @@ const plans = [
       "3 different backgrounds + styles",
       "Ready in 90 minutes",
     ],
-    buttonStyle: "bg-orange-500 text-white",
+    buttonStyle: "bg-blue-700 text-white",
     popular: true,
   },
   {
@@ -31,7 +31,7 @@ const plans = [
       "4 different backgrounds + styles",
       "Ready in 60 minutes",
     ],
-    buttonStyle: "border border-black text-black",
+    buttonStyle: "bg-blue-700 text-white",
     popular: false,
   },
 ];
