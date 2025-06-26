@@ -80,7 +80,7 @@ export function Header() {
         <div className="flex lg:flex-1">
           <a href="home" className="-m-1.5 p-1.5">
             <span className="h-8 w-auto text-3xl">My <span className="text-blue-500 text-3xl">profile picture</span></span>
-            {/* <img className="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
+           
           </a>
         </div>
         <div className="flex lg:hidden">
