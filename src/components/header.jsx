@@ -78,7 +78,7 @@ export function Header() {
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="home" className="-m-1.5 p-1.5">
             <span className="h-8 w-auto text-3xl">My <span className="text-blue-500 text-3xl">profile picture</span></span>
             {/* <img className="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
           </a>
@@ -98,12 +98,12 @@ export function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
          
-          <a href="#" className="text-1xl font-semibold text-gray-900">
+          <a href="company" className="text-1xl font-semibold text-gray-900">
           For companies</a>
-          <a href="#" className="text-1xl font-semibold text-gray-900">How it works</a>
-          <a href="#" className="text-1xl font-semibold text-gray-900">Price</a>
+          <a href="#how-work" className="text-1xl font-semibold text-gray-900">How it works</a>
+          <a href="#price" className="text-1xl font-semibold text-gray-900">Price</a>
           <a href="#" className="text-1xl font-semibold text-gray-900">Blog</a>
-          <a href="#" className="text-1xl font-semibold text-gray-900">Examples</a>
+          <a href="example" className="text-1xl font-semibold text-gray-900">Examples</a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <button type="button" className="border border-black text-black bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:ring-white-300 font-medium rounded-lg text-lg px-7 py-3 me-2 mb-2 dark:bg-black-600 dark:hover:bg-white-700 dark:focus:ring-blue-800 focus:outline-none">Login</button>

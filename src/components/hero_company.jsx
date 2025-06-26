@@ -9,18 +9,18 @@ export function Hero() {
           
             <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
               <h2 className="text-3xl font-semibold tracking-tight text-balance text-black sm:text-4xl">
-              Turn your selfies into professional application photos!
+              Create professional team photos and employee portraits
               </h2>
               <p className="mt-6 text-lg/8 text-pretty text-gray-500">
-                We transform your pictures into high-quality application photos
+              Turn your employees' selfies into high-quality employee photos
                 <br /><br />
-                ✅ Simply upload & relax
+                ✅ Simply upload & show team spirit
                 <br />
-                ✅ State-of-the-art AI technology
+                ✅ Advanced AI technology
                 <br />
-                ✅ Fast delivery
+                ✅ Fast implementation
               </p>
-           \
+           
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
                   href="#"
@@ -35,7 +35,7 @@ export function Hero() {
             <div className="relative mt-16 h-80 lg:mt-8">
               <img
                 alt="App screenshot"
-                src="bg.png"
+                src="company/hero.png"
                 width={1824}
                 height={1080}
                 className="rounded-md "

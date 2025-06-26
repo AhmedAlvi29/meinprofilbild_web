@@ -1,15 +1,10 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import './input.css';
-import App from './App.jsx';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
-const rootElement = document.getElementById('root');
-if (rootElement) {
-  createRoot(rootElement).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-} else {
-  throw new Error('Root element not found');
-}
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
